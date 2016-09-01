@@ -1,14 +1,21 @@
 {
   "name": "angular-reddit-clone",
   "version": "1.0.0",
-  "description": "practicing MEAN stack app",
-  "main": "index.js",
+  "description": "practicing MEAN app",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
   },
   "author": "Sean Lester",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^4.5.10"
+    "mongoose": "^4.5.10",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
   }
 }
